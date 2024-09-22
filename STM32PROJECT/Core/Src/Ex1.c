@@ -142,19 +142,23 @@ void display7SEG(int number)
 	}
 }
 void init_exercise1(){
-	HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, RESET);
-	HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, RESET);
+	HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, SET);
+	HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, SET);
 }
 
 int status = 0;
 
 void exercise1_run(){
+	init_exercise1();
+
 	switch(status){
 		case 0:
+			HAL_GPIO_WritePin(EN0_GPIO_Port, EN0_Pin, RESET);
 			display7SEG(1);
 			status = 1;
 			break;
 		case 1:
+			HAL_GPIO_WritePin(EN1_GPIO_Port, EN1_Pin, RESET);
 			display7SEG(2);
 			status = 0;
 			break;
