@@ -95,7 +95,6 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  init_exercise1();
   setTimer(50);
   while (1)
   {
