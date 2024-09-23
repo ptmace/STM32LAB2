@@ -23,7 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "TimerInterrupt.h"
-#include "Ex4.h"
+#include "Ex5.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -95,13 +95,18 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  setTimer(0, 100);
+  setTimer(0, 50);
+  setTimer(1, 100);
   while (1)
   {
 	  if(timer_flag[0] == 1){
+		  updateClockBuffer();
 		  exercise3_run();
+		  setTimer(0, 50);
+	  }
+	  if(timer_flag[1] == 1){
 		  HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
-		  setTimer(0, 100);
+		  setTimer(1, 100);
 	  }
     /* USER CODE END WHILE */
 

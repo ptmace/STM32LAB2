@@ -10,6 +10,8 @@
 
 #include "Ex2.h"
 
+extern int led_buffer[4];
+
 void update7SEG(int index);
 void exercise3_run();
 
