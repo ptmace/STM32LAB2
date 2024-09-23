@@ -1,4 +1,4 @@
-Core/Src/TimeInterrupt.o: ../Core/Src/TimeInterrupt.c \
+Core/Src/TimerInterrupt.o: ../Core/Src/TimerInterrupt.c \
  ../Core/Inc/TimerInterrupt.h ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
