@@ -7,6 +7,7 @@
 C_SRCS += \
 ../Core/Src/Ex1.c \
 ../Core/Src/Ex2.c \
+../Core/Src/Ex3.c \
 ../Core/Src/TimeInterrupt.c \
 ../Core/Src/main.c \
 ../Core/Src/stm32f1xx_hal_msp.c \
@@ -18,6 +19,7 @@ C_SRCS += \
 OBJS += \
 ./Core/Src/Ex1.o \
 ./Core/Src/Ex2.o \
+./Core/Src/Ex3.o \
 ./Core/Src/TimeInterrupt.o \
 ./Core/Src/main.o \
 ./Core/Src/stm32f1xx_hal_msp.o \
@@ -29,6 +31,7 @@ OBJS += \
 C_DEPS += \
 ./Core/Src/Ex1.d \
 ./Core/Src/Ex2.d \
+./Core/Src/Ex3.d \
 ./Core/Src/TimeInterrupt.d \
 ./Core/Src/main.d \
 ./Core/Src/stm32f1xx_hal_msp.d \

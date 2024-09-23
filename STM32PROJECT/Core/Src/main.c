@@ -23,7 +23,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "TimerInterrupt.h"
-#include "Ex2.h"
+#include "Ex3.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -100,7 +100,7 @@ int main(void)
   while (1)
   {
 	  if(timer_flag[0] == 1){
-		  exercise2_run();
+		  exercise3_run();
 		  setTimer(0, 50);
 	  }
 	  if(timer_flag[1] == 1){
