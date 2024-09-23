@@ -14,10 +14,10 @@ d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st
 Allocating common symbols
 Common symbol       size              file
 
-timer_counter       0x8               ./Core/Src/TimeInterrupt.o
+timer_counter       0x8               ./Core/Src/TimerInterrupt.o
 uwTick              0x4               ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
 pFlash              0x20              ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
-timer_flag          0x8               ./Core/Src/TimeInterrupt.o
+timer_flag          0x8               ./Core/Src/TimerInterrupt.o
 htim2               0x48              ./Core/Src/main.o
 
 Discarded input sections
@@ -317,81 +317,81 @@ Discarded input sections
  .comment       0x0000000000000000       0x54 ./Core/Src/Ex4.o
  .ARM.attributes
                 0x0000000000000000       0x33 ./Core/Src/Ex4.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .group         0x0000000000000000        0xc ./Core/Src/TimeInterrupt.o
- .text          0x0000000000000000        0x0 ./Core/Src/TimeInterrupt.o
- .data          0x0000000000000000        0x0 ./Core/Src/TimeInterrupt.o
- .bss           0x0000000000000000        0x0 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0xa9c ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x215 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x2e ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x8e ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x51 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x103 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x6a ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x1df ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x1c ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x22 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0xc3 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0xd23 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000     0xde75 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x6d ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000     0x34a2 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x174 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x5c ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x5bc ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x1b7 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x1cb ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x114 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x1b2 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x27 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x12f ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x1bc ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x34 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x3c ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x57 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x87 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x183 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x140 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000      0x8ed ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0x69 ./Core/Src/TimeInterrupt.o
- .debug_macro   0x0000000000000000       0xa0 ./Core/Src/TimeInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .group         0x0000000000000000        0xc ./Core/Src/TimerInterrupt.o
+ .text          0x0000000000000000        0x0 ./Core/Src/TimerInterrupt.o
+ .data          0x0000000000000000        0x0 ./Core/Src/TimerInterrupt.o
+ .bss           0x0000000000000000        0x0 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0xa9c ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x215 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x2e ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x8e ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x51 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x103 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x6a ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x1df ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x1c ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x22 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0xc3 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0xd23 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000     0xde75 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x6d ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000     0x34a2 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x174 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x5c ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x5bc ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x1b7 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x1cb ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x114 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x1b2 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x27 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x12f ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x1bc ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x34 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x3c ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x57 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x87 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x183 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x140 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000      0x8ed ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0x69 ./Core/Src/TimerInterrupt.o
+ .debug_macro   0x0000000000000000       0xa0 ./Core/Src/TimerInterrupt.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
@@ -2540,7 +2540,7 @@ LOAD ./Core/Src/Ex1.o
 LOAD ./Core/Src/Ex2.o
 LOAD ./Core/Src/Ex3.o
 LOAD ./Core/Src/Ex4.o
-LOAD ./Core/Src/TimeInterrupt.o
+LOAD ./Core/Src/TimerInterrupt.o
 LOAD ./Core/Src/main.o
 LOAD ./Core/Src/stm32f1xx_hal_msp.o
 LOAD ./Core/Src/stm32f1xx_it.o
@@ -2610,10 +2610,10 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
                 0x0000000008000598       0x30 ./Core/Src/Ex3.o
                 0x0000000008000598                exercise3_run
  .text.setTimer
-                0x00000000080005c8       0x30 ./Core/Src/TimeInterrupt.o
+                0x00000000080005c8       0x30 ./Core/Src/TimerInterrupt.o
                 0x00000000080005c8                setTimer
  .text.timerRun
-                0x00000000080005f8       0x60 ./Core/Src/TimeInterrupt.o
+                0x00000000080005f8       0x60 ./Core/Src/TimerInterrupt.o
                 0x00000000080005f8                timerRun
  .text.main     0x0000000008000658       0x4c ./Core/Src/main.o
                 0x0000000008000658                main
@@ -2944,7 +2944,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
                 0x0000000020000038        0x4 ./Core/Src/Ex3.o
                 0x0000000020000038                index_led
  *(COMMON)
- COMMON         0x000000002000003c       0x10 ./Core/Src/TimeInterrupt.o
+ COMMON         0x000000002000003c       0x10 ./Core/Src/TimerInterrupt.o
                 0x000000002000003c                timer_counter
                 0x0000000020000044                timer_flag
  COMMON         0x000000002000004c       0x48 ./Core/Src/main.o
@@ -2985,7 +2985,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .ARM.attributes
                 0x00000000000000a4       0x2d ./Core/Src/Ex3.o
  .ARM.attributes
-                0x00000000000000d1       0x2d ./Core/Src/TimeInterrupt.o
+                0x00000000000000d1       0x2d ./Core/Src/TimerInterrupt.o
  .ARM.attributes
                 0x00000000000000fe       0x2d ./Core/Src/main.o
  .ARM.attributes
@@ -3024,7 +3024,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_info    0x0000000000000000      0x28d ./Core/Src/Ex1.o
  .debug_info    0x000000000000028d      0x277 ./Core/Src/Ex2.o
  .debug_info    0x0000000000000504      0x2c4 ./Core/Src/Ex3.o
- .debug_info    0x00000000000007c8      0x222 ./Core/Src/TimeInterrupt.o
+ .debug_info    0x00000000000007c8      0x222 ./Core/Src/TimerInterrupt.o
  .debug_info    0x00000000000009ea      0xbd2 ./Core/Src/main.o
  .debug_info    0x00000000000015bc      0xa09 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_info    0x0000000000001fc5      0x7b9 ./Core/Src/stm32f1xx_it.o
@@ -3041,7 +3041,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_abbrev  0x0000000000000000      0x139 ./Core/Src/Ex1.o
  .debug_abbrev  0x0000000000000139      0x10e ./Core/Src/Ex2.o
  .debug_abbrev  0x0000000000000247      0x13d ./Core/Src/Ex3.o
- .debug_abbrev  0x0000000000000384      0x119 ./Core/Src/TimeInterrupt.o
+ .debug_abbrev  0x0000000000000384      0x119 ./Core/Src/TimerInterrupt.o
  .debug_abbrev  0x000000000000049d      0x22c ./Core/Src/main.o
  .debug_abbrev  0x00000000000006c9      0x1b7 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_abbrev  0x0000000000000880      0x176 ./Core/Src/stm32f1xx_it.o
@@ -3062,7 +3062,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_aranges
                 0x0000000000000058       0x28 ./Core/Src/Ex3.o
  .debug_aranges
-                0x0000000000000080       0x28 ./Core/Src/TimeInterrupt.o
+                0x0000000000000080       0x28 ./Core/Src/TimerInterrupt.o
  .debug_aranges
                 0x00000000000000a8       0x48 ./Core/Src/main.o
  .debug_aranges
@@ -3090,7 +3090,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_ranges  0x0000000000000000       0x20 ./Core/Src/Ex1.o
  .debug_ranges  0x0000000000000020       0x18 ./Core/Src/Ex2.o
  .debug_ranges  0x0000000000000038       0x18 ./Core/Src/Ex3.o
- .debug_ranges  0x0000000000000050       0x18 ./Core/Src/TimeInterrupt.o
+ .debug_ranges  0x0000000000000050       0x18 ./Core/Src/TimerInterrupt.o
  .debug_ranges  0x0000000000000068       0x38 ./Core/Src/main.o
  .debug_ranges  0x00000000000000a0       0x20 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_ranges  0x00000000000000c0       0x58 ./Core/Src/stm32f1xx_it.o
@@ -3143,7 +3143,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_macro   0x00000000000152f3       0xa0 ./Core/Src/Ex1.o
  .debug_macro   0x0000000000015393      0x1ba ./Core/Src/Ex2.o
  .debug_macro   0x000000000001554d      0x1c4 ./Core/Src/Ex3.o
- .debug_macro   0x0000000000015711      0x1c2 ./Core/Src/TimeInterrupt.o
+ .debug_macro   0x0000000000015711      0x1c2 ./Core/Src/TimerInterrupt.o
  .debug_macro   0x00000000000158d3      0x1e2 ./Core/Src/main.o
  .debug_macro   0x0000000000015ab5      0x1a6 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_macro   0x0000000000015c5b      0x1b0 ./Core/Src/stm32f1xx_it.o
@@ -3155,53 +3155,53 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_macro   0x000000000001669f      0x198 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
  .debug_macro   0x0000000000016837      0x197 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
 
-.debug_line     0x0000000000000000     0xc719
+.debug_line     0x0000000000000000     0xc71a
  .debug_line    0x0000000000000000      0x8c6 ./Core/Src/Ex1.o
  .debug_line    0x00000000000008c6      0x86b ./Core/Src/Ex2.o
  .debug_line    0x0000000000001131      0x86b ./Core/Src/Ex3.o
- .debug_line    0x000000000000199c      0x879 ./Core/Src/TimeInterrupt.o
- .debug_line    0x0000000000002215      0x975 ./Core/Src/main.o
- .debug_line    0x0000000000002b8a      0x869 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_line    0x00000000000033f3      0x907 ./Core/Src/stm32f1xx_it.o
- .debug_line    0x0000000000003cfa      0x8ab ./Core/Src/system_stm32f1xx.o
- .debug_line    0x00000000000045a5       0x86 ./Core/Startup/startup_stm32f103c6ux.o
- .debug_line    0x000000000000462b      0xad8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x0000000000005103      0xcc0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x0000000000005dc3      0xb5b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x000000000000691e      0xee4 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x0000000000007802     0x3529 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_line    0x000000000000ad2b     0x19ee ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_line    0x000000000000199c      0x87a ./Core/Src/TimerInterrupt.o
+ .debug_line    0x0000000000002216      0x975 ./Core/Src/main.o
+ .debug_line    0x0000000000002b8b      0x869 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_line    0x00000000000033f4      0x907 ./Core/Src/stm32f1xx_it.o
+ .debug_line    0x0000000000003cfb      0x8ab ./Core/Src/system_stm32f1xx.o
+ .debug_line    0x00000000000045a6       0x86 ./Core/Startup/startup_stm32f103c6ux.o
+ .debug_line    0x000000000000462c      0xad8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000005104      0xcc0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x0000000000005dc4      0xb5b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x000000000000691f      0xee4 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_line    0x0000000000007803     0x3529 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_line    0x000000000000ad2c     0x19ee ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
 
-.debug_str      0x0000000000000000    0x820cb
+.debug_str      0x0000000000000000    0x820cc
  .debug_str     0x0000000000000000    0x7f659 ./Core/Src/Ex1.o
                                       0x7f99d (size before relaxing)
  .debug_str     0x000000000007f659       0x43 ./Core/Src/Ex2.o
                                       0x7f99e (size before relaxing)
  .debug_str     0x000000000007f69c       0x5a ./Core/Src/Ex3.o
                                       0x7f9c9 (size before relaxing)
- .debug_str     0x000000000007f6f6       0x7c ./Core/Src/TimeInterrupt.o
-                                      0x7f9a1 (size before relaxing)
- .debug_str     0x000000000007f772      0x707 ./Core/Src/main.o
+ .debug_str     0x000000000007f6f6       0x7d ./Core/Src/TimerInterrupt.o
+                                      0x7f9a2 (size before relaxing)
+ .debug_str     0x000000000007f773      0x707 ./Core/Src/main.o
                                       0x80164 (size before relaxing)
- .debug_str     0x000000000007fe79      0x2ba ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_str     0x000000000007fe7a      0x2ba ./Core/Src/stm32f1xx_hal_msp.o
                                       0x8013c (size before relaxing)
- .debug_str     0x0000000000080133       0xcd ./Core/Src/stm32f1xx_it.o
+ .debug_str     0x0000000000080134       0xcd ./Core/Src/stm32f1xx_it.o
                                       0x7fe9e (size before relaxing)
- .debug_str     0x0000000000080200       0x52 ./Core/Src/system_stm32f1xx.o
+ .debug_str     0x0000000000080201       0x52 ./Core/Src/system_stm32f1xx.o
                                       0x7f785 (size before relaxing)
- .debug_str     0x0000000000080252       0x36 ./Core/Startup/startup_stm32f103c6ux.o
+ .debug_str     0x0000000000080253       0x36 ./Core/Startup/startup_stm32f103c6ux.o
                                          0x79 (size before relaxing)
- .debug_str     0x0000000000080288      0x304 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_str     0x0000000000080289      0x304 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
                                       0x7fddc (size before relaxing)
- .debug_str     0x000000000008058c      0x300 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_str     0x000000000008058d      0x300 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
                                       0x7fde4 (size before relaxing)
- .debug_str     0x000000000008088c      0x324 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000008088d      0x324 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
                                       0x7fb49 (size before relaxing)
- .debug_str     0x0000000000080bb0      0x24f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_str     0x0000000000080bb1      0x24f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
                                       0x7fb82 (size before relaxing)
- .debug_str     0x0000000000080dff      0xdde ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_str     0x0000000000080e00      0xdde ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
                                       0x80b6b (size before relaxing)
- .debug_str     0x0000000000081bdd      0x4ee ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_str     0x0000000000081bde      0x4ee ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
                                       0x8030c (size before relaxing)
 
 .comment        0x0000000000000000       0x53
@@ -3209,7 +3209,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
                                          0x54 (size before relaxing)
  .comment       0x0000000000000053       0x54 ./Core/Src/Ex2.o
  .comment       0x0000000000000053       0x54 ./Core/Src/Ex3.o
- .comment       0x0000000000000053       0x54 ./Core/Src/TimeInterrupt.o
+ .comment       0x0000000000000053       0x54 ./Core/Src/TimerInterrupt.o
  .comment       0x0000000000000053       0x54 ./Core/Src/main.o
  .comment       0x0000000000000053       0x54 ./Core/Src/stm32f1xx_hal_msp.o
  .comment       0x0000000000000053       0x54 ./Core/Src/stm32f1xx_it.o
@@ -3225,7 +3225,7 @@ LOAD d:/microprocessor_microcontroller/stm32cubeide_1.7.0/stm32cubeide/plugins/c
  .debug_frame   0x0000000000000000       0x70 ./Core/Src/Ex1.o
  .debug_frame   0x0000000000000070       0x48 ./Core/Src/Ex2.o
  .debug_frame   0x00000000000000b8       0x50 ./Core/Src/Ex3.o
- .debug_frame   0x0000000000000108       0x60 ./Core/Src/TimeInterrupt.o
+ .debug_frame   0x0000000000000108       0x60 ./Core/Src/TimerInterrupt.o
  .debug_frame   0x0000000000000168       0xd4 ./Core/Src/main.o
  .debug_frame   0x000000000000023c       0x80 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_frame   0x00000000000002bc      0x120 ./Core/Src/stm32f1xx_it.o
