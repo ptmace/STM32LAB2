@@ -13,21 +13,11 @@ int second = 50;
 int led_buffer[4];
 
 void updateClockBuffer(){
-	second++;
-
-	if(second >= 60){
-		second = 0;
-		minute++;
-	}
-	if(minute >= 60){
-		minute = 0;
-		hour++;
-	}
-	if(hour >= 24){
-		hour = 0;
-	}
 	led_buffer[0] = hour/10;
 	led_buffer[1] = hour%10;
 	led_buffer[2] = minute/10;
 	led_buffer[3] = minute%10;
+
+	exercise3_run();
+	HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 }

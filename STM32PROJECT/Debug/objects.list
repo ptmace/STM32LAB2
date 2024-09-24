@@ -1,7 +1,6 @@
 "./Core/Src/Ex1.o"
 "./Core/Src/Ex2.o"
 "./Core/Src/Ex3.o"
-"./Core/Src/Ex4.o"
 "./Core/Src/Ex5.o"
 "./Core/Src/TimerInterrupt.o"
 "./Core/Src/main.o"

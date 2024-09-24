@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "TimerInterrupt.h"
+//#include "TimerInterrupt.h"
 #include "Ex5.h"
 /* USER CODE END Includes */
 
@@ -90,24 +90,28 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start_IT(&htim2);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  setTimer(0, 50);
-  setTimer(1, 100);
   while (1)
   {
-	  if(timer_flag[0] == 1){
-		  updateClockBuffer();
-		  exercise3_run();
-		  setTimer(0, 50);
-	  }
-	  if(timer_flag[1] == 1){
-		  HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
-		  setTimer(1, 100);
-	  }
+	  second++;
+
+	  	if(second >= 60){
+	  		second = 0;
+	  		minute++;
+	  	}
+	  	if(minute >= 60){
+	  		minute = 0;
+	  		hour++;
+	  	}
+	  	if(hour >= 24){
+	  		hour = 0;
+	  	}
+	  	updateClockBuffer();
+	  	HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -237,9 +241,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	timerRun();
-}
+
 /* USER CODE END 4 */
 
 /**
