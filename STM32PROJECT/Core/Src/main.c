@@ -99,14 +99,6 @@ int main(void)
   setTimer(1, 100);
   while (1)
   {
-	  if(timer_flag[0] == 1){
-		  exercise3_run();
-		  setTimer(0, 50);
-	  }
-	  if(timer_flag[1] == 1){
-		  HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
-		  setTimer(1, 100);
-	  }
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -236,8 +228,14 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+int counter = 100;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	timerRun();
+	counter--;
+	if(counter <= 0){
+		counter = 100;
+		exercise3_run();
+		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
+	}
 }
 /* USER CODE END 4 */
 
