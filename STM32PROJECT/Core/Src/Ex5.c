@@ -19,5 +19,4 @@ void updateClockBuffer(){
 	led_buffer[3] = minute%10;
 
 	exercise3_run();
-	HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 }
