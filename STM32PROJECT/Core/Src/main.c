@@ -22,7 +22,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "TimerInterrupt.h"
 #include "Ex3.h"
 /* USER CODE END Includes */
 
@@ -95,8 +94,6 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  setTimer(0, 50);
-  setTimer(1, 100);
   while (1)
   {
     /* USER CODE END WHILE */
