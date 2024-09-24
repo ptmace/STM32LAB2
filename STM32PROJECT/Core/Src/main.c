@@ -22,7 +22,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-//#include "TimerInterrupt.h"
 #include "Ex5.h"
 /* USER CODE END Includes */
 
