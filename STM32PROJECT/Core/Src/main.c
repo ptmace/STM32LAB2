@@ -22,7 +22,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "Ex9.h"
+#include "Ex10.h"
 #include "TimerInterrupt.h"
 /* USER CODE END Includes */
 
@@ -96,14 +96,19 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int i = 0;
+  int state = 0;
   setTimer(1);
   while (1)
   {
 	  if(timer_flag == 1){
-		  updateLEDMatrix(i);
+		  updateLEDMatrix_animation(state, i);
 		  i++;
 		  if(i == 8){
 			  i = 0;
+			  state++;
+			  if(state == 14){
+				  state = 0;
+			  }
 		  }
 		  setTimer(1);
 	  }
