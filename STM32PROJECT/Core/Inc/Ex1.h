@@ -13,7 +13,7 @@
 extern int status;
 
 
-void display7SEG(int number);
+void display7SEG(uint8_t number);
 void init_exercise1();
 void exercise1_run();
 
