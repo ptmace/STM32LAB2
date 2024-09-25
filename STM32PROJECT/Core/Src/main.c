@@ -96,16 +96,16 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int i = 0;
-  setTimer(0, 1);
+  setTimer(1);
   while (1)
   {
-	  if(timer_flag[0] == 1){
+	  if(timer_flag == 1){
 		  updateLEDMatrix(i);
 		  i++;
 		  if(i == 8){
 			  i = 0;
 		  }
-		  setTimer(0, 1);
+		  setTimer(1);
 	  }
     /* USER CODE END WHILE */
 

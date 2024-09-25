@@ -10,24 +10,20 @@
 
 #include "TimerInterrupt.h"
 
-#define TICK 10
 
-int timer_flag[2];
-int timer_counter[2];
+int timer_flag;
+int timer_counter;
 
-void setTimer(int index, int counter){
-	timer_flag[index] = 0;
-	timer_counter[index] = counter;
+void setTimer(int counter){
+	timer_flag= 0;
+	timer_counter = counter/TICK;
 }
 
 void timerRun(){
-	for(int i = 0; i < 2; i++){
-		if(timer_counter[i] > 0){
-			timer_counter[i]--;
-			if(timer_counter[i] <= 0){
-				timer_flag[i] = 1;
-			}
-		}
+	timer_counter--;
+
+	if(timer_counter <= 0){
+		timer_flag = 1;
 	}
 }
 

@@ -11,10 +11,10 @@
 #include "main.h"
 #define TICK 10
 
-extern int timer_counter[2];
-extern int timer_flag[2];
+extern int timer_counter;
+extern int timer_flag;
 
-void setTimer(int index, int counter);
+void setTimer(int counter);
 void timerRun();
 
 
