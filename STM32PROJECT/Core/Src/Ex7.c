@@ -21,6 +21,5 @@ void exercise7_run(){
   	if(hour >= 24){
   		hour = 0;
   	}
-  	updateClockBuffer();
 }
 

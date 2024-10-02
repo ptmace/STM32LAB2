@@ -95,18 +95,24 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  setTimer(0, 50);
+  setTimer(0, 100);
   setTimer(1, 100);
+  setTimer(2, 25);
   while (1)
   {
 	  	  if(timer_flag[0] == 1){
 	  		  exercise7_run();
-	  		  setTimer(0, 50);
+	  		  setTimer(0, 100);
 	  	  }
 	  	  if(timer_flag[1] == 1){
 	  		  HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 	  		  setTimer(1, 100);
 	  	  }
+	  	  if(timer_flag[2] == 1){
+	  		  updateClockBuffer();
+	  		  setTimer(2, 25);
+	  	  }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
