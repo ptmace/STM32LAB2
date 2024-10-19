@@ -96,18 +96,23 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int i = 0;
-  int state = 0;
+  //int state = 0;
   setTimer(1);
   while (1)
   {
 	  if(timer_flag == 1){
-		  updateLEDMatrix_animation(state, i);
+		  updateLEDMatrix_animation(/*state, */i);
 		  i++;
 		  if(i == 8){
 			  i = 0;
-			  state++;
-			  if(state == 14){
-				  state = 0;
+//			  state++;
+//			  if(state == 14){
+//				  state = 0;
+//			  }
+			  for(int j = 0; j < 8; j++){
+				  uint8_t temp = (matrix_buffer_heart[j] >> 7)&1;
+				  matrix_buffer_heart[j] = matrix_buffer_heart[j] << 1;
+				  matrix_buffer_heart[j] = matrix_buffer_heart[j] + temp;
 			  }
 		  }
 		  setTimer(1);

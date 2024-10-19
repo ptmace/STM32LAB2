@@ -10,6 +10,8 @@
 
 #include "Ex9.h"
 
-void updateLEDMatrix_animation(int state, int index);
+extern uint8_t matrix_buffer_heart[8];
+
+void updateLEDMatrix_animation(/*int state, */int index);
 
 #endif /* INC_EX10_H_ */
